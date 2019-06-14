@@ -1,16 +1,17 @@
 import java.util.*;
 import java.lang.*;
 import java.io.*;
- public class Mirror
+public class Mirror
 {
 	public static void main (String[] args) 
 	{
-        int no,rem,rev=0;
+		int no,rem,rev=0;
         int k,m;
   Scanner sc=new Scanner(System.in);
-m=sc.nextInt();		
+   m=sc.nextInt();
   no=sc.nextInt();
  k=sc.nextInt();
+
 while(no!=0)
 {
 rem=no%10;
@@ -22,6 +23,5 @@ System.out.println("yes");
 else
 System.out.println("no");
 
-
+	}
 }
-    } 
